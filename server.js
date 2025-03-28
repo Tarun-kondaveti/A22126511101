@@ -6,7 +6,7 @@ const port=9876;
 
 const wsize= 10;
 let nums = [];
-app.get('/nums/:numberId', async (req, res) => {
+app.get('/numbers/:numberId', async (req, res) => {
   const numberId = req.params.numberId;
   let newNums = [];
   try {
